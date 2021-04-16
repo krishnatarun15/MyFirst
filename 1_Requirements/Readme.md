@@ -41,10 +41,11 @@ access contactless menu and generate bill.
 
 # Detail requirements
 ## High Level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+1 Admin should add items in the Menu.
+2.Admin should update the Menu daily.
+3.User should select item to get bill.
 
 
 ##  Low level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+1. User should give response to select items using the name or serial id.
+2. only after selecting items bills are generated.
