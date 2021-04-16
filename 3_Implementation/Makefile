@@ -5,7 +5,7 @@ PROJECT_NAME = Cafe Management System
 BUILD = build
 
 # All source code files
-SRC = project_main.c\
+SRC = Cafe.c\
 src/Cafe_Management_System.c
 
 # All test source files
