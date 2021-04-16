@@ -13,6 +13,10 @@ This is the modified project of my final assessment in Engineering. This project
 5. In User Portal, user can select items using name or using serial number and generate a total bill.
 
 ## SWOT ANALYSIS
+**Strength:**
+Weakness:
+Opportunities:
+Threats:
 
 # 4W&#39;s and 1&#39;H
 
