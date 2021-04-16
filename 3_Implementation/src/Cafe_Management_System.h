@@ -28,8 +28,7 @@ void back();
 void deletingitems();
 
 
-void admin()
-{
+void admin(){
 	int i;
 A:
 	printf("\t\t 1.ADD NEW ITEM TO MENU\n\n");
@@ -70,8 +69,6 @@ A:
 	}
 	printf("CHOOSE OPTION NO.:\n");
 }
-
-
 void menu()
 {
 	int m;
@@ -91,7 +88,6 @@ void menu()
 }
 fclose(fp);
 }
-
 void user()
 {
 	int k=0,count;
@@ -104,11 +100,11 @@ void user()
 	{
 		search();
 	}
+	printf("You have choosed N\n");
 	printf("\nSELECT ITEMS FROM MENU\n");
 
 	billing();
 }
-
 void billing()
 {
 	int y=0,i=0,total=0,selection[15];
@@ -154,8 +150,6 @@ void billing()
 	printf("\n\n");
 	admin();
 }
-
-
 void addition()
 {
 	int b,i,j=0;
@@ -205,13 +199,12 @@ void deletingitems()
     	rename("delitems.txt","menu.txt");
     	printf("\n\n\n");
     }
-
-
 void search()
 {
 	fflush(stdin);
 	char element[10];
 	int i=0;
+	printf("You have choosen Y.\n");
 	printf("Enter name of item that you want to search\n");
 	gets(element);
 	p=fopen("menu.txt","r");
@@ -224,8 +217,6 @@ while(fread(&item,sizeof(item),1,p)){
 	
 }
 }
-
-
 void payments()
 {
 	printf("\t\t\t CAFE MANAGEMENT SYSTEM\t\t\t\n\n");
@@ -260,14 +251,12 @@ int main()
  back();
  return 0;
 }
-
- void back()
- {
+ void back(){
  	int j;
   system("cls");
   
 	printf("\n\n\n\t\t\t-------------------------------WELCOME------------------------------\n");
-	printf("\n\n\t\t\t\t\t\t\tCAFE  ");
+	printf("\n\n\t\t\t\t\t\tCAFE  ");
 	printf("\n\t\t\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~");
 	printf("\n\n\n");
  printf("\t\t1.ADMIN\n");
@@ -289,4 +278,3 @@ int main()
  }
 }
  
-
